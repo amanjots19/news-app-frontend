@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.container-grid {
+  margin:4rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+}
+.news-card{
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  margin-bottom: 3rem;
+  margin:4rem;
+}
+.source{
+  position: relative;
+}
+.image{
+  width:200px
+
+}
+.description{
+  text-decoration: solid;
+}
+.navbar-news{
+  background-color: lightgrey;
+  height:10vh;
+  width:100%;
+  padding-top:2rem;
+  font-size: 20px;
+  display: inline-block;
+}
+.search-text{
+  position: absolute;
+  right:50px;
+  width: 200px;
+  height: 120px;
+}
+.btn{
+  text-decoration: none;
+  background-color: lightseagreen;
+  width:50%;
+  border: #282c34;
+  border-radius: 30px;
+  font-size: medium;
+}
+.abcd{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display:inherit;
+
+}
+.saved{
+  position: absolute;
+  left:50px;
+  width: 200px;
+  height: 120px;
+}
+.saved-tag{
+  text-decoration: none;
+  border-bottom: black;
+}
+.login-class{
+  background-color: lightblue;
+  width:100%;
+  height: 100vh;
+  margin-top: 0%;
+}
+.login{
+  border-style: solid;
+  border-color: #282c34;
+  margin: auto;
+  width: 50%;
+  border-color: #282c34;
+  padding: 10px;
+  display:  flexbox ;
+}
+.input-tag{
+  margin-bottom: 1.5rem;
+}
+.button-tag{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 1rem;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-grid {
+    
+  }
+}
+@media screen and (min-width: 800px) {
+  .container-grid {
+    
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
